@@ -5,3 +5,4 @@ devel/
 catkin_tools_prebuild/
 logs/
 
+.vscode
