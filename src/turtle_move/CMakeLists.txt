@@ -19,6 +19,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_service_files(
   FILES
   MoveStraight.srv 
+  MoveTo.srv
 )
 
 ## Generate actions in the 'action' folder
@@ -55,3 +56,7 @@ include_directories(
 add_executable(move_straight src/move_straight.cpp)
 add_dependencies(move_straight ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(move_straight ${catkin_LIBRARIES})
+
+add_executable(move_to src/move_to.cpp)
+add_dependencies(move_to ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(move_to ${catkin_LIBRARIES})
