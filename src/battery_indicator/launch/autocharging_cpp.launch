@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="battery_indicator_node" pkg="battery_indicator" type="battery_node.py" output="screen">
+    </node>
+
+    <node name="autocharging_node_cpp" pkg="battery_indicator" type="autocharging_node" output="screen">
+        <param name="critical_percent" value="15"/>
+        <param name="full_battery" value="100"/>
+        <param name="warning_percentage" value="25"/>
+    </node>
+
+</launch>

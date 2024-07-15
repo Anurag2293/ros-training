@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   BatteryStatus.msg
+  ErrorStatus.msg
 )
 
 generate_messages(
@@ -25,3 +26,12 @@ catkin_package(
 catkin_install_python(PROGRAMS src/battery_node.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+
+include_directories(
+  ${catkin_INCLUDE_DIRS}
+)
+
+
+add_executable(autocharging_node src/autocharging_node.cpp)
+add_dependencies(autocharging_node battery_indicator_generate_messages_cpp)
+target_link_libraries(autocharging_node ${catkin_LIBRARIES}) 
