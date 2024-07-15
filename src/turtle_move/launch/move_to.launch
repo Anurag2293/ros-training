@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node">
+        
+    </node>
+
+    <node pkg="turtle_move" type="move_to" name="turtle_move_goal">
+        
+    </node>
+
+</launch>
