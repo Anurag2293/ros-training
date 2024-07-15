@@ -1,0 +1,7 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "cmake.sourceDirectory": "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/supplementary/alica_ros1/alica_ros_turtlesim"
+}

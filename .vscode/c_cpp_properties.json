@@ -1,0 +1,47 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/noetic/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/devel/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/alica_dummy_proxy/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/supplementary/alica_dummy_tracing/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/alica_dynamic_loading/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/alica_engine/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/supplementary/alica_ros2/alica_ros2_proxy/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/supplementary/alica_ros2/alica_ros2_turtlesim/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/supplementary/alica_ros1/alica_ros_proxy/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/supplementary/alica_ros1/alica_ros_turtlesim/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/alica_simple_solver/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/alica_solver_interface/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/alica_standard_library/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/alica_test_utility/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/alica_tests/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/supplementary/alica_tracing/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/supplementary/alica_turtlesim/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/supplementary/autodiff/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/supplementary/constraintsolver/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/flatland/flatland_plugins/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/flatland/flatland_server/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/flatland/flatland_viz/include/**",
+                "/media/anurag2293/Elements/Ubuntu20/__rapyuta-robotics/training/ros-training/src/alica/supplementary/alica_ros1/supplementary_tests/include/**",
+                "/usr/include/**",
+                "/opt/ros/noetic/include",
+                "${workspaceFolder}/devel/.private/turtle_mover/lib/turtle_mover",
+                "${workspaceFolder}/devel/.private/move_turtle/include",
+                "${workspaceFolder}/devel/.private/turtle_move/include",
+                "${workspaceFolder}/devel/.private/battery_indicator/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
